@@ -2,20 +2,22 @@
 	background-color: $slate;
 	width: 100%;
 	padding: 1em;
+	text-align: left;
 }
 
-.header--home > img {
+.header--home a
+
+.header--home__img {
 	width: 200px;
 	display: block;
 }
 
-.header--home > h2 {
+.header--home__h2 {
     font-size: 1em;
 	display: inline;
     color: $light;
 	font-family: $header_font;
 	font-weight: 300;
-	text-align: left;
 }
 
 .btn--auth {
@@ -68,13 +70,13 @@
 }
 
 @media only screen and (min-height: 321px) and (max-width: 480px) {
-	.header--home > img {
+	.header--home__img {
 		width: 90%;
 		margin: 0 auto;
 		display: block;
 	}
 
-	.header--home > h2 {
+	.header--home {
 		text-align: center;
 	}
 }

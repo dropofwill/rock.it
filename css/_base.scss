@@ -1,0 +1,20 @@
+.header--home { 
+	background: url('../media/logo2.svg') no-repeat $highlight;
+  	background-size: 25em;
+  	background-position: 1em 1em;
+	height: 15em;
+	width: 100%;
+}
+
+.header--home > h1 {
+	@include text_display_none;
+}
+
+.header--home > h2 {
+	color: $light;
+    @include font-size($h4-size);
+	font: $header_font;
+	font-weight: 300;
+	padding-left: 1em;
+	padding-top: 5.5em;
+}

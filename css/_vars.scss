@@ -69,3 +69,16 @@ $use-greybox:       false;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+
+
+ // Color scheme
+
+ $dark: 	 #1a3b33;
+ $light:     #ffffff;
+ $mid_dark:  #53d189;
+ $mid_light: #72fec6;
+ $highlight: #44d163;
+
+ // Font families
+ $header_font: "Dosis"; // Weight 300, 400, or 700
+ $body_font: "Source Sans Pro";

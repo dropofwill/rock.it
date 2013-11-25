@@ -5,7 +5,9 @@
 	text-align: left;
 }
 
-.header--home a
+.header--home a {
+	text-decoration: none;
+}
 
 .header--home__img {
 	width: 200px;

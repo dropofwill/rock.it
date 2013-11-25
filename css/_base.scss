@@ -1,12 +1,8 @@
 .header--home { 
 	background-color: $highlight;
-	//background: url('../media/logo2.svg') no-repeat $highlight;
-  	//background-size: 90%;
-  	//background-position: 1em 1em;
-	
-	height: 15em;
 	width: 100%;
 	padding-top: 1em;
+	padding-bottom: 0.25em
 }
 
 .header--home > img {
@@ -25,4 +21,5 @@
 	font: $header_font;
 	font-weight: 300;
 	text-align: center;
+	padding-top: 0.5em;
 }

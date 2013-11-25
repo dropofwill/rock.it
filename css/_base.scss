@@ -1,5 +1,5 @@
 .header--home { 
-	background-color: $highlight;
+	background-color: $brand-color;
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 0.25em
@@ -18,4 +18,27 @@
 	font-weight: 300;
 	text-align: center;
 	padding-top: 0.5em;
+}
+
+.nav--auth > .btn--auth {
+	background-color: $mid-light;
+}
+
+@include media-query(palm) {
+
+	.nav--auth {
+		text-align: center;
+	}
+
+	.nav--auth > .btn--auth {
+		width: 90%;
+		padding-right: 0;
+    	padding-left: 0;
+    	margin-bottom: 0.5em;
+    	text-align:center;
+	}
+
+	.header--home {
+		margin-bottom: 1em;
+	}
 }

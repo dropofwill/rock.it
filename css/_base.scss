@@ -11,10 +11,6 @@
 	display: block;
 }
 
-.header--home > h1 {
-	@include text_display_none;
-}
-
 .header--home > h2 {
     @include font-size($h4-size);
 	color: $light;

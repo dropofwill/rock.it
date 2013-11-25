@@ -1,9 +1,7 @@
 .header--home { 
 	background-color: $slate;
 	width: 100%;
-	padding-top: 1em;
-	padding-bottom: 0.01em;
-	padding-left: 1em;
+	padding: 1em;
 }
 
 .header--home > img {
@@ -12,11 +10,11 @@
 }
 
 .header--home > h2 {
-    @include font-size($h5-size);
-	color: $light;
-	font: $header_font;
+    font-size: 1em;
+	display: inline;
+    color: $light;
+	font-family: $header_font;
 	font-weight: 300;
-	padding-top: 0.5em;
 	text-align: left;
 }
 

@@ -3,5 +3,7 @@
 }
 
 @mixin text_display_none {
-	text-indent: -9999px;
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
 }

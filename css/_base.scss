@@ -1,8 +1,8 @@
 .header--home { 
-	background-color: $brand-color;
+	background-color: $alt-red;
 	width: 100%;
 	padding-top: 1em;
-	padding-bottom: 0.25em
+	padding-bottom: 0.01em
 }
 
 .header--home > img {
@@ -12,7 +12,7 @@
 }
 
 .header--home > h2 {
-    @include font-size($h4-size);
+    @include font-size($h5-size);
 	color: $light;
 	font: $header_font;
 	font-weight: 300;
@@ -20,8 +20,23 @@
 	padding-top: 0.5em;
 }
 
-.nav--auth > .btn--auth {
-	background-color: $mid-light;
+.btn--auth {
+	background-color: $brand-color;
+	color: $light;
+}
+
+.btn--inputs {
+	border: 1px solid $mid-light;
+	color: $alt-gray;
+}
+
+.btn--inputs:focus {
+	color: $dark;
+	border: 1px dotted $dark;
+}
+
+.btn__browse {
+	background-color: $alt-blue;
 }
 
 @include media-query(palm) {
@@ -30,12 +45,16 @@
 		text-align: center;
 	}
 
-	.nav--auth > .btn--auth {
+	.btn--auth {
 		width: 90%;
 		padding-right: 0;
     	padding-left: 0;
     	margin-bottom: 0.5em;
     	text-align:center;
+	}
+
+	.btn--inputs {
+		@extend .btn--auth;
 	}
 
 	.header--home {

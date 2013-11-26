@@ -25,6 +25,7 @@
 nav .btn {
 	padding-right:0.5em;
 	padding-left: 0.5em;
+	margin-bottom: 1em;
 	line-height:2;
 }
 
@@ -36,6 +37,7 @@ nav .btn--auth {
 nav .btn--inputs {
 	border: 1px solid $mid-light;
 	color: $alt-gray;
+	cursor: text;
 }
 
 nav .btn--inputs:focus {
@@ -45,6 +47,20 @@ nav .btn--inputs:focus {
 
 nav .btn__browse {
 	background-color: $alt-blue;
+}
+
+article.media {
+	margin-bottom: 0.25em;
+}
+
+article .media__img {
+	padding-left: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+article .media__content {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 @include media-query(palm) {

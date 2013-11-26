@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Dosis:300,400,700' rel='stylesheet' type='text/css'>
 
     <script src="js/jquery_2-0-3.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
 </head>
 <body>
 
@@ -23,14 +24,14 @@
         <form action="POST" id="login_form">
             <input type="text" name="email" value="youremail@domain.com" class="btn btn--inputs" tabindex="1">
             <input type="text" name="password" value="password" class="btn btn--inputs" tabindex="2">
-            <input type="submit" name="login" value="LOGIN" class="btn btn--auth" tabindex="3">
+            <input type="button" name="login" value="LOGIN" class="btn btn--auth" tabindex="3">
         </form>
 
-        <form action="POST" id="signup">
+        <form action="POST" id="signup_form">
             <input type="text" name="email" value="youremail@domain.com" class="btn btn--inputs" tabindex="4">
             <input type="text" name="password" value="password" class="btn btn--inputs" tabindex="5">
             <input type="text" name="password" value="confirm password" class="btn btn--inputs" tabindex="6">
-            <input type="submit" name="signup" value="SIGNUP" class="btn btn--auth" tabindex="7">
+            <input type="button" name="signup" value="SIGNUP" class="btn btn--auth" tabindex="7">
         </form>
 
         <a href="content.html" class="btn btn--auth btn__browse" tabindex="8">BROWSE &gt;</a>

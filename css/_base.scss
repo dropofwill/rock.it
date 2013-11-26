@@ -63,6 +63,10 @@ article .media__content {
 	padding-right: 1.5em;
 }
 
+.loz {
+	background-color: $alt-blue;
+}
+
 @include media-query(palm) {
 
 	.nav--auth {

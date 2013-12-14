@@ -1,4 +1,16 @@
-﻿body {
+﻿h1,h2,h3,h4,h5,h6 {
+    font-family: "Dosis";
+}
+
+.navbar-brand {
+    font-family: "Dosis";
+}
+
+.container {
+    max-width: 800px;
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
